@@ -1,23 +1,14 @@
+const addCategoties = document.querySelectorAll('.item h2, li')
+// console.log(addCategoties)
 
+const ulEl = []
+const h2El = []
 
-const ul = document.querySelector('ul');
-const ower = document.querySelectorAll('#categories')
-const ulChildren = ul.childNodes;
- ulChildren.forEach((elem) => {
-    const asasx = elem.value;
-    console.log(asasx);
- })
+addCategoties.forEach(element => {
+   if (element === h2){
+      console.log(h2El.push(element))
+   } else console.log(ulEl.push(element))
+});
 
-
-
-
-// Number of categories: 3
-
-// Category: Animals
-// Elements: 4
-
-// Category: Products
-// Elements: 3
-
-// Category: Technologies
-// Elements: 5
+console.log(ulEl)
+console.log(h2El)
