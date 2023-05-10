@@ -1,14 +1,11 @@
-const addCategoties = document.querySelectorAll('.item h2, li')
-// console.log(addCategoties)
 
-const ulEl = []
-const h2El = []
 
-addCategoties.forEach(element => {
-   if (element === h2){
-      console.log(h2El.push(element))
-   } else console.log(ulEl.push(element))
-});
 
-console.log(ulEl)
-console.log(h2El)
+const CategoriesList = document.querySelectorAll('.item');
+console.log('Number of categories: ', CategoriesList.length);
+
+
+CategoriesList.forEach(element => {
+console.log("Category:", element.firstElementChild.textContent);
+console.log("Elements:", element.lastElementChild.childElementCount)
+})
