@@ -27,5 +27,4 @@ console.log(listIngradients)
 
 
 
-///element.append(el1, el2, ...)
-///document.createElement(tagName);
+
