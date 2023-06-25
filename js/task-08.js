@@ -1,6 +1,3 @@
-
-
-
 const form = document.querySelector(".login-form");
 const onFormSubmit = (event) => {
   event.preventDefault();
@@ -16,3 +13,4 @@ const onFormSubmit = (event) => {
    }
 }
 form.addEventListener('submit', onFormSubmit)
+

@@ -20,3 +20,4 @@ let contentOfImages = images
   .join(" ");
 console.log(contentOfImages)
 listOfGallery.insertAdjacentHTML("beforeend", contentOfImages);
+

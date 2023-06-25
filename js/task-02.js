@@ -26,5 +26,3 @@ listIngradients.append(...elements)
 console.log(listIngradients)
 
 
-
-

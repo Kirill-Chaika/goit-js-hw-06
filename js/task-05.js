@@ -11,3 +11,4 @@ const refs = {
         ? (refs.nameOutput.textContent = evt.target.value)
         : (refs.nameOutput.textContent = "Anonymous")
     );
+
